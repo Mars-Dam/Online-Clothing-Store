@@ -436,14 +436,14 @@ a {
 }
 
 .founder-section {
-  padding: 96px 0;
+  padding: 60px 0;
   background: linear-gradient(135deg, rgba(200, 164, 85, 0.08) 0%, rgba(31, 107, 104, 0.08) 100%);
 }
 
 .founder-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
-  gap: 56px;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  gap: 40px;
   align-items: center;
 }
 
@@ -451,50 +451,52 @@ a {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 24px 70px rgba(31, 25, 20, 0.14);
+  min-height: 500px;
 }
 
 .founder-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
 .founder-content h2 {
   font-size: clamp(2rem, 4vw, 4rem);
-  margin: 16px 0 24px;
+  margin: 12px 0 16px;
 }
 
 .founder-content p {
   color: rgba(23, 19, 19, 0.68);
   line-height: 1.75;
-  margin: 0 0 16px;
+  margin: 0 0 12px;
 }
 
 .founder-highlights {
   display: grid;
-  gap: 24px;
+  gap: 16px;
   margin-top: 32px;
 }
 
 .highlight {
-  padding: 24px;
+  padding: 18px;
   border-left: 4px solid var(--gold);
   background: rgba(255, 255, 255, 0.5);
   border-radius: 4px;
 }
 
 .highlight h3 {
-  margin: 0 0 8px;
+  margin: 0 0 6px;
   color: var(--ink);
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 .highlight p {
   margin: 0;
   color: rgba(23, 19, 19, 0.68);
-  font-size: 0.95rem;
-  line-height: 1.6;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .footer {
@@ -554,7 +556,7 @@ a {
   .services-section,
   .contact-section,
   .founder-section {
-    padding: 72px 0;
+    padding: 50px 0;
   }
 
   .services-copy {
