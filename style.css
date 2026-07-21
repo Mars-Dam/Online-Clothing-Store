@@ -1,14 +1,14 @@
 :root {
-  --ink: #2c2c2c;
-  --coal: #3a3a3a;
-  --paper: #fafafa;
-  --cream: #f5f5f5;
-  --clay: #d17d8f;
-  --rose: #e8b4b8;
-  --teal: #9b8b8b;
-  --gold: #c8a882;
-  --line: rgba(44, 44, 44, 0.14);
-  --shadow: 0 24px 70px rgba(44, 44, 44, 0.12);
+  --ink: #0a0e27;
+  --coal: #1a1f3a;
+  --paper: #f0f4ff;
+  --cream: #e8ecff;
+  --clay: #ff006e;
+  --rose: #ff4d94;
+  --teal: #00d4ff;
+  --gold: #ffd700;
+  --line: rgba(10, 14, 39, 0.14);
+  --shadow: 0 24px 70px rgba(10, 14, 39, 0.15);
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
@@ -28,7 +28,7 @@ body {
 
 body::selection {
   color: #ffffff;
-  background: #d17d8f;
+  background: #ff006e;
 }
 
 img {
