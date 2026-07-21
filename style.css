@@ -1,14 +1,14 @@
 :root {
-  --ink: #171313;
-  --coal: #2a2522;
-  --paper: #fffaf2;
-  --cream: #f3eadb;
-  --clay: #a14f3f;
-  --rose: #d8a0a6;
-  --teal: #1f6b68;
-  --gold: #c8a455;
-  --line: rgba(23, 19, 19, 0.14);
-  --shadow: 0 24px 70px rgba(31, 25, 20, 0.14);
+  --ink: #1a1a1a;
+  --coal: #2d1b3d;
+  --paper: #faf8fc;
+  --cream: #f3ebf8;
+  --clay: #9c3f8b;
+  --rose: #e847c3;
+  --teal: #7a2e9f;
+  --gold: #f0b000;
+  --line: rgba(26, 26, 26, 0.14);
+  --shadow: 0 24px 70px rgba(45, 27, 61, 0.14);
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
@@ -28,7 +28,7 @@ body {
 
 body::selection {
   color: #ffffff;
-  background: var(--clay);
+  background: #e847c3;
 }
 
 img {
@@ -221,6 +221,23 @@ a {
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
   gap: 56px;
   align-items: start;
+}
+
+.intro-image {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 24px 70px rgba(31, 25, 20, 0.14);
+  height: 100%;
+  min-height: 400px;
+}
+
+.intro-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .intro-grid h2,
@@ -549,6 +566,12 @@ a {
   .collection-grid,
   .founder-grid {
     grid-template-columns: 1fr;
+  }
+
+  .intro-image {
+    grid-column: auto;
+    grid-row: auto;
+    min-height: 280px;
   }
 
   .intro-section,
